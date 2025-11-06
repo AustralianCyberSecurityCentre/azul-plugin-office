@@ -1,0 +1,5 @@
+azul-runner>=4.0.0
+msoffcrypto-tool>=5.3
+oletools>=0.60
+click
+defusedxml>=0.6
