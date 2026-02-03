@@ -145,7 +145,7 @@ class AzulPluginRtfInfo(DocumentInfo):
         if not feature:
             return False
         # we decode strings from the parser
-        if feature.typeref == str:
+        if feature.typeref is str:
             return isinstance(value, bytes)
         return isinstance(value, feature.typeref)
 

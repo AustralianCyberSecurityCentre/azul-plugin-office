@@ -6,7 +6,6 @@ from azul_plugin_office.mssylk import Sylk
 
 
 class TestSylk(unittest.TestCase):
-
     def test_sylk_cmd(self):
         fm = FileManager()
         # Malicious SYLK file with embedded command.
